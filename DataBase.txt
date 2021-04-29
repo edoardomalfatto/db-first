@@ -1,0 +1,17 @@
+t_cars
+
+
+
+id						numero		AUTO_INCREMENT			NOT NULL PRIMARY KEY UNIQUE		
+marca					stringa		VARCHAR(20)				NOT NULL
+modello					stringa		VARCHAR(20)				NOT NULL UNIQUE
+condizione				stringa		VARCHAR(10)				NOT NULL
+prezzo					numero		FLOAT(9,2)				NOT NULL		
+anno_immatricolazione	data		YEAR					NOT NULL
+km_percorsi				numero		MEDIUMINT 				Default(0)		
+tipologia				stringa		VARCHAR(20)				NULL	
+carburante_accettato	stringa		VARCHAR(20)				NOT NULL
+cambio					stringa		VARCHAR(15)				NOT NULL
+classe_emissioni		stringa		VARCHAR(10)				NULL
+porte					stringa		VARCHAR(10)				NULL
+colore					stringa		VARCHAR(10)				NULL
